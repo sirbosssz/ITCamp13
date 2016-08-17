@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.login-page {
+    /* for the login page */
+    height:100%;
+    min-height:100%;
+    width: 100%;
+    margin: 0 auto;
+    background: url('../img/dark-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-page img {
+    width: 90%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+.login-box {
+    background: rgba(255, 255, 255, 0.83);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 30px;
+    border-radius: 3px;
+    width: 300px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1)
+}
+.login-box button {
+    margin-top: 20px;
+}
+.btn-primary {
+    border: none !important;
+    background: #24C6DC !important;
+    background: -webkit-linear-gradient(-45deg, #24C6DC , #514A9D) !important;
+    background: linear-gradient(-45deg, #24C6DC , #514A9D) !important;
+    transition: opacity 0.2s;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    opacity: 0.8;
+}
+.form-control {
+    border: none !important;
+    border-bottom: 2px solid #000 !important;
+    border-radius: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+}
