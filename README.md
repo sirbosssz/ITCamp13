@@ -1,6 +1,9 @@
 FUCK FOOFY
 TESTTTTTTTTTTTTTTT OMG OMG
 FUCK EVERYBODY
+<<<<<<< HEAD
+OMGMMGGG
+=======
 k kk
  k
   k
@@ -22,3 +25,4 @@ k kk
                y
                y
                y y
+>>>>>>> master
