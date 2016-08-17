@@ -1,28 +1,10 @@
-FUCK FOOFY
-TESTTTTTTTTTTTTTTT OMG OMG
-FUCK EVERYBODY
-<<<<<<< HEAD
-OMGMMGGG
-=======
-k kk
- k
-  k
-  u u u u
-          u u
-          
-          u u
+# IT CAMP 13 WEBSITE
+An official website for IT Camp 13.
 
-           u u
+## Contributors
+<b>Front-end:</b>
+- Nathan Yiangsupapaanontr
+- Pornprom Kiawjak
+- Thanathep Thaithae
 
-            u u
-
-             y y
-
-             y y
-              y
-              y
-
-               y
-               y
-               y y
->>>>>>> master
+Remark: Please clone this repo and add your name alphabetically.
