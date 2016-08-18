@@ -11,8 +11,8 @@ if($username == ""){
 } else {
     $check_log = mysql_query("select * from user_itcamp where user_id ='$username' and user_pass ='$password' ");
     $num = mysql_num_rows($check_log)
-    if $num == 1 {
-        
+    if $num <= 0 {
+        echo "Username หรือ Password อาจจะผิดกรุณา Login ใหม่อีกครั้ง <br /><a href='index.php'>Back</a>";
     }
 }
 ?>
