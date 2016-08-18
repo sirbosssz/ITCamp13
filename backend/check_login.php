@@ -1,18 +1,23 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
-include("connect.php");
+include("include/connect.php");
 session_start();
-$usersame = $_POST[username];
-$password = $_POST[password]
-if($username == ""){
-    echo "โปรดกรอก Username";
-} else if ($password == ""){
-    echo "โปรดกรอก Password";
+$user = $_POST['username'];
+$pass = $_POST['password'];
+if ($user == ""){
+    echo "please filled in the blank user";
+} else if ($pass == ""){
+    echo "please filled in the blank pass";
 } else {
-    $check_log = mysql_query("select * from user_itcamp where user_id ='$username' and user_pass ='$password' ");
-    $num = mysql_num_rows($check_log)
-    if $num <= 0 {
-        echo "Username หรือ Password อาจจะผิดกรุณา Login ใหม่อีกครั้ง <br /><a href='index.php'>Back</a>";
+    $check_log = mysql_query("SELECT * FROM user_itcamp WHERE user_id ='$user' and user_pass ='$pass' ");
+    $num = mysql_num_rows($check_log);
+    if ($num <= 0){
+        exit ("<script> alert('invaild username or invaild password');
+	  window.location = 'login.html';
+	  </script>");
     }
+    else 
+        exit("<script> window.location = 'success.html'; </script>");
 }
+
 ?>
