@@ -48,3 +48,22 @@ html, body {
     background: none !important;
     box-shadow: none !important;
 }
+ul.navbar-nav span.glyphicon {
+    margin-right: 3px;
+}
+.navbar-default {
+    background: #24C6DC !important;
+    background: -webkit-linear-gradient(-45deg, #24C6DC , #514A9D) !important;
+    background: linear-gradient(-45deg, #24C6DC , #514A9D) !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.navbar a {
+    color: #fff !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #000 !important;
+}
+.navbar-default a:hover {
+    background-color: #fff !important;
+}
