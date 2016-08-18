@@ -88,7 +88,7 @@ li.nohover a:hover, li.nohover a:active, li.nohover a:focus {
 
 .stat-box {
     width: 100%;
-    padding: 25px 20px 5px 20px;
+    padding: 25px 20px 13px 20px;
     border-radius: 6px;
     color: #fff;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
@@ -117,4 +117,13 @@ li.nohover a:hover, li.nohover a:active, li.nohover a:focus {
     font-family: -apple-system-font, sans-serif;
     font-size: 50px;
     font-weight: bold;
+}
+outof {
+    font-size: 20px;
+}
+.stat-box p {
+    margin-bottom: 7px;
+}
+.stat-box .progress {
+    margin-bottom: 5px;
 }
