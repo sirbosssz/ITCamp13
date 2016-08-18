@@ -88,7 +88,7 @@ li.nohover a:hover, li.nohover a:active, li.nohover a:focus {
 
 .stat-box {
     width: 100%;
-    padding: 20px;
+    padding: 25px 20px 5px 20px;
     border-radius: 6px;
     color: #fff;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
@@ -99,18 +99,18 @@ li.nohover a:hover, li.nohover a:active, li.nohover a:focus {
     background: linear-gradient(-45deg, #24C6DC , #514A9D) !important;
 }
 .stat-box-2 {
-    background: #f46b45; /* fallback for old browsers */
-    background: -webkit-linear-gradient(-45deg, #eea849 , #f46b45); /* Chrome 10-25, Safari 5.1-6 */
+    background: #f46b45;
+    background: -webkit-linear-gradient(-45deg, #eea849 , #f46b45);
     background: linear-gradient(-45deg, #eea849 , #f46b45);
 }
 .stat-box-3 {
-    background: #ADD100; /* fallback for old browsers */
-    background: -webkit-linear-gradient(-45deg, #ADD100 , #7B920A); /* Chrome 10-25, Safari 5.1-6 */
+    background: #ADD100;
+    background: -webkit-linear-gradient(-45deg, #ADD100 , #7B920A);
     background: linear-gradient(-45deg, #ADD100 , #7B920A);
 }
 .stat-box-4 {
-    background: #FF512F; /* fallback for old browsers */
-    background: -webkit-linear-gradient(-45deg, #DD2476 , #FF512F); /* Chrome 10-25, Safari 5.1-6 */
+    background: #FF512F;
+    background: -webkit-linear-gradient(-45deg, #DD2476 , #FF512F);
     background: linear-gradient(-45deg, #DD2476 , #FF512F);
 }
 .stat-box p.number {
