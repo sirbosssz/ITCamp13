@@ -7,9 +7,12 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/custom.css" type="text/css">
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <style>
+            body {padding-top: 70px;}
+        </style>
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -38,8 +41,45 @@
                             <a href="#"><span class="glyphicon glyphicon-list-alt"></span> การยืนยันสิทธิ์</a>
                         </li>
                     </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown nohover">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">นายแมวเหมียว <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">ออกจากระบบ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
+        <div class="container">
+            <h1>ภาพรวม</h1>
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="stat-box stat-box-1">
+                        <p>จำนวนผู้สมัครทั้งหมด</p>
+                        <p class="number">1080</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="stat-box stat-box-2">
+                        <p>ใบสมัครผ่านแล้ว</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="stat-box stat-box-3">
+                        <p>ตรวจคำตอบแล้ว</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="stat-box stat-box-4">
+                        <p>ยืนยันสิทธิ์</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script async src="js/bootstrap.min.js"></script>
     </body>
 </html>

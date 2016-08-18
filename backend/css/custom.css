@@ -48,6 +48,9 @@ html, body {
     background: none !important;
     box-shadow: none !important;
 }
+
+/* NAVBAR STYLES */
+
 ul.navbar-nav span.glyphicon {
     margin-right: 3px;
 }
@@ -60,10 +63,58 @@ ul.navbar-nav span.glyphicon {
 }
 .navbar a {
     color: #fff !important;
+    transition: background-color 0.2s, color 0.2s;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
     background-color: #000 !important;
+    color: #fff !important;
 }
-.navbar-default a:hover {
-    background-color: #fff !important;
+.navbar-default li a:hover {
+    background-color: #f1f1f1 !important;
+    color: #000 !important;
+}
+li.nohover a:hover, li.nohover a:active, li.nohover a:focus {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.dropdown-menu>li>a {
+    color: #000 !important;
+}
+.dropdown-menu>li>a:hover {
+    color: #767676 !important;
+}
+
+/* STAT BOXES */
+
+.stat-box {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+.stat-box-1 {
+    background: #24C6DC !important;
+    background: -webkit-linear-gradient(-45deg, #24C6DC , #514A9D) !important;
+    background: linear-gradient(-45deg, #24C6DC , #514A9D) !important;
+}
+.stat-box-2 {
+    background: #f46b45; /* fallback for old browsers */
+    background: -webkit-linear-gradient(-45deg, #eea849 , #f46b45); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-45deg, #eea849 , #f46b45);
+}
+.stat-box-3 {
+    background: #ADD100; /* fallback for old browsers */
+    background: -webkit-linear-gradient(-45deg, #ADD100 , #7B920A); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-45deg, #ADD100 , #7B920A);
+}
+.stat-box-4 {
+    background: #FF512F; /* fallback for old browsers */
+    background: -webkit-linear-gradient(-45deg, #DD2476 , #FF512F); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-45deg, #DD2476 , #FF512F);
+}
+.stat-box p.number {
+    font-family: -apple-system-font;
+    font-size: 50px;
+    font-weight: bold;
 }
