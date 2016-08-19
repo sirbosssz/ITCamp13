@@ -2,6 +2,9 @@ html, body {
     height: 100%;
     margin: 0;
 }
+.mg-bottom {
+    margin-bottom: 30px;
+}
 .login-page {
     /* for the login page */
     height:100%;
@@ -83,6 +86,18 @@ li.nohover a:hover, li.nohover a:active, li.nohover a:focus {
 .dropdown-menu>li>a:hover {
     color: #767676 !important;
 }
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #3d82ba !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff !important;
+}
 
 /* STAT BOXES */
 
@@ -114,7 +129,7 @@ li.nohover a:hover, li.nohover a:active, li.nohover a:focus {
     background: linear-gradient(-45deg, #DD2476 , #FF512F);
 }
 .stat-box p.number {
-    font-family: -apple-system-font, sans-serif;
+    font-family: -apple-system-font, "Segoe UI", sans-serif;
     font-size: 50px;
     font-weight: bold;
 }
@@ -126,4 +141,26 @@ outof {
 }
 .stat-box .progress {
     margin-bottom: 5px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #f1f1f1;
+    padding: 15px 0;
+    border-top: 3px solid #3d82ba;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1199px) {
+    .stat-box {
+        margin: 10px 0;
+    }
+    ul.dropdown-menu li a {
+        color: #fff !important;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent !important;
+    }
 }

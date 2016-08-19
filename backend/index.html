@@ -7,15 +7,16 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/custom.css" type="text/css">
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Prompt:300,500&subset=thai" rel="stylesheet">
         <style>
             body {padding-top: 70px;}
         </style>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -43,7 +44,7 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown nohover">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">นายแมวเหมียว <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> นายแมวเหมียว <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">ออกจากระบบ</a></li>
                             </ul>
@@ -52,14 +53,15 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
+        <div class="container-fluid">
             <h1>ภาพรวม</h1>
             <hr>
-            <div class="row">
+            <div class="row mg-bottom">
                 <div class="col-xs-12 col-md-6 col-lg-3">
                     <div class="stat-box stat-box-1">
                         <p>จำนวนผู้สมัครทั้งหมด</p>
-                        <p class="number">1080</p>
+                        <p class="number">1080<outof> คน</outof></p>
+                        <p><span class="glyphicon glyphicon-ok-sign"></span> 19-08-2016 08:43 AM</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-3">
@@ -93,7 +95,226 @@
                     </div>
                 </div>
             </div>
+            <div class="row mg-bottom">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-stats"></span> จำนวนผู้สมัครแต่ละค่าย</h3>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-hover">
+                                <tr>
+                                    <th>ค่าย</th>
+                                    <th>ชาย</th>
+                                    <th>หญิง</th>
+                                    <th>รวม</th>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่าย</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่ายค่าย</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่าย</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่ายย</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายยาค่</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-right">รวม</th>
+                                    <th>500</th>
+                                    <th>500</th>
+                                    <th>1000</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-check"></span> จำนวนผู้ผ่านการคัดเลือก</h3>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-hover">
+                                <tr>
+                                    <th>ค่าย</th>
+                                    <th>ชาย</th>
+                                    <th>หญิง</th>
+                                    <th>รวม</th>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่าย</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่ายค่าย</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่าย</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่ายย</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายยาค่</td>
+                                    <td>100</td>
+                                    <td>100</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-right">รวม</th>
+                                    <th>500</th>
+                                    <th>500</th>
+                                    <th>1000</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-tags"></span> จำนวนเสื้อ</h3>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-hover text-center">
+                                <tr>
+                                    <th class="text-center">ไซส์</th>
+                                    <th class="text-center">จำนวน</th>
+                                </tr>
+                                <tr>
+                                    <td>S</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>M</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>L</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>XL</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>XXL</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>XXXL</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center">รวม</th>
+                                    <th class="text-center">500</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><span class="glyphicon glyphicon-file"></span> สรุปยอดหลักฐาน</h3>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-hover">
+                                <tr>
+                                    <th>ค่าย</th>
+                                    <th>สลิป</th>
+                                    <th>ขาด</th>
+                                    <th>ปพ.1</th>
+                                    <th>ขาด</th>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่าย</td>
+                                    <td>23</td>
+                                    <td>1</td>
+                                    <td>23</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่ายค่าย</td>
+                                    <td>25</td>
+                                    <td>0</td>
+                                    <td>25</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่าย</td>
+                                    <td>23</td>
+                                    <td>0</td>
+                                    <td>23</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายค่ายย</td>
+                                    <td>21</td>
+                                    <td>0</td>
+                                    <td>21</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>ค่ายยาค่</td>
+                                    <td>10</td>
+                                    <td>0</td>
+                                    <td>10</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-right">รวม</th>
+                                    <th>102</th>
+                                    <th>1</th>
+                                    <th>102</th>
+                                    <th>1</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="text-center">
+                    <strong>IT Camp #13</strong><br/>
+                    Backoffice System
+                </div>
+            </div>
+        </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script async src="js/bootstrap.min.js"></script>
     </body>
