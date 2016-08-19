@@ -56,6 +56,34 @@
         <div class="container-fluid">
             <h1 class="text-center">ภาพรวม</h1>
             <hr>
+            <!-- PROGRESS -->
+            <div class="row bs-wizard mg-bottom">
+                <div class="col-xs-3 bs-wizard-step complete">
+                    <div class="text-center bs-wizard-stepnum">รับสมัคร</div>
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="bs-wizard-dot"></a>
+                    <div class="bs-wizard-info text-center">ถึง 31 ต.ค.</div>
+                </div>
+                <div class="col-xs-3 bs-wizard-step complete"><!-- complete -->
+                    <div class="text-center bs-wizard-stepnum">ตรวจข้อมูล</div>
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="bs-wizard-dot"></a>
+                    <div class="bs-wizard-info text-center">1 - 5 พ.ย.</div>
+                </div>
+                <div class="col-xs-3 bs-wizard-step active"><!-- complete -->
+                    <div class="text-center bs-wizard-stepnum">ประกาศผล</div>
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="bs-wizard-dot"></a>
+                    <div class="bs-wizard-info text-center">6 พ.ย.</div>
+                </div>
+                <div class="col-xs-3 bs-wizard-step disabled"><!-- active -->
+                    <div class="text-center bs-wizard-stepnum">ปิดระบบ</div>
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="bs-wizard-dot"></a>
+                    <div class="bs-wizard-info text-center">20 ธ.ค.</div>
+                </div>
+            </div>
+            <!-- STAT BOXES -->
             <div class="row mg-bottom">
                 <div class="col-xs-12 col-md-6 col-lg-3">
                     <div class="stat-box stat-box-1">
@@ -95,6 +123,7 @@
                     </div>
                 </div>
             </div>
+            <!-- DETAILED PANELS -->
             <div class="row mg-bottom">
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="panel panel-info">
@@ -103,12 +132,14 @@
                         </div>
                         <div class="panel-body">
                             <table class="table table-hover">
-                                <tr>
-                                    <th>ค่าย</th>
-                                    <th>ชาย</th>
-                                    <th>หญิง</th>
-                                    <th>รวม</th>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th>ค่าย</th>
+                                        <th>ชาย</th>
+                                        <th>หญิง</th>
+                                        <th>รวม</th>
+                                    </tr>
+                                </thead>
                                 <tr>
                                     <td>ค่ายค่าย</td>
                                     <td>100</td>
@@ -156,12 +187,14 @@
                         </div>
                         <div class="panel-body">
                             <table class="table table-hover">
-                                <tr>
-                                    <th>ค่าย</th>
-                                    <th>ชาย</th>
-                                    <th>หญิง</th>
-                                    <th>รวม</th>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th>ค่าย</th>
+                                        <th>ชาย</th>
+                                        <th>หญิง</th>
+                                        <th>รวม</th>
+                                    </tr>
+                                </thead>
                                 <tr>
                                     <td>ค่ายค่าย</td>
                                     <td>100</td>
@@ -209,10 +242,12 @@
                         </div>
                         <div class="panel-body">
                             <table class="table table-hover text-center">
-                                <tr>
-                                    <th class="text-center">ไซส์</th>
-                                    <th class="text-center">จำนวน</th>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">ไซส์</th>
+                                        <th class="text-center">จำนวน</th>
+                                    </tr>
+                                </thead>
                                 <tr>
                                     <td>S</td>
                                     <td>100</td>
@@ -239,7 +274,7 @@
                                 </tr>
                                 <tr>
                                     <th class="text-center">รวม</th>
-                                    <th class="text-center">500</th>
+                                    <th class="text-center">600</th>
                                 </tr>
                             </table>
                         </div>
@@ -252,13 +287,15 @@
                         </div>
                         <div class="panel-body">
                             <table class="table table-hover">
-                                <tr>
-                                    <th>ค่าย</th>
-                                    <th>สลิป</th>
-                                    <th>ขาด</th>
-                                    <th>ปพ.1</th>
-                                    <th>ขาด</th>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th>ค่าย</th>
+                                        <th>สลิป</th>
+                                        <th>ขาด</th>
+                                        <th>ปพ.1</th>
+                                        <th>ขาด</th>
+                                    </tr>
+                                </thead>
                                 <tr>
                                     <td>ค่ายค่าย</td>
                                     <td>23</td>
@@ -302,6 +339,7 @@
                                     <th>1</th>
                                 </tr>
                             </table>
+                            <em>ไม่นับผู้ที่สละสิทธิ์</em>
                         </div>
                     </div>
                 </div>
