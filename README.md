@@ -3,6 +3,7 @@ An official website for IT Camp 13.
 
 ## Contributors
 <b>Front-end:</b>
+- Kasidis Chaowvasin
 - Nathan Yiangsupapaanontr
 - Pornprom Kiawjak
 - Thanathep Thaithae
