@@ -63,7 +63,7 @@ ul.navbar-nav span.glyphicon {
     background: linear-gradient(-45deg, #24C6DC , #514A9D) !important;
     border: none !important;
     border-radius: 0 !important;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.14)
+    box-shadow: 0 5px 10px rgba(0,0,0,0.14);
 }
 .navbar a {
     color: #fff !important;
