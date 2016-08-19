@@ -18,6 +18,10 @@ html, body {
     margin-left: 28px;
     float: left;
 }
+.navbar__logo img {
+    width: 120px;
+    margin: 23px 0 0 0;
+}
 .menu {
     float: right;
     margin-right: 20px;
@@ -46,13 +50,31 @@ html, body {
 }
 .hero {
     /* hero section */
-    background: #141E30;
-    background: -webkit-linear-gradient(-45deg, #243B55, #141E30);
-    background: linear-gradient(-45deg, #243B55, #141E30);
+    background: #000;
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hero-text {
-    min-width: 100px;
+.hero img {
+    max-width: 1000px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1199px) {
+    .hero img {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .hero img {
+        width: 400px;
+    }
+    .navbar__logo img {
+        margin: 0 auto;
+    }
 }
