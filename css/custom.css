@@ -1,6 +1,17 @@
 html, body {
     height: 100%;
     margin: 0;
+	font-family: Block;
+}
+
+/* FONTS */
+
+@font-face {
+	font-family: 'Block';
+	src: url('../fonts/Block.eot');
+	src: url('../fonts/Block.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Block.woff') format('woff'),
+		url('../fonts/Block.ttf') format('truetype');
 }
 
 /* NAVBAR */
@@ -12,6 +23,8 @@ html, body {
     height: 66px;
     line-height: 66px;
     color: #000;
+	letter-spacing: 2px;
+	font-size: 22px;
 }
 .navbar__logo {
     font-weight: 700;
@@ -60,13 +73,13 @@ html, body {
     align-items: center;
 }
 .hero img {
-    max-width: 400px;
+    max-width: 300px;
 }
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1199px) {
     .hero img {
-        width: 360px;
+        width: 250px;
     }
 }
