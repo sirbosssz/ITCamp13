@@ -68,12 +68,10 @@ html, body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .hero img {
-    max-width: 300px;
+    width: 100%;
+	max-width: 300px;
 }
 .cta-group {
 	margin-top: 30px;
