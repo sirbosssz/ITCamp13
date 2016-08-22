@@ -11,7 +11,7 @@ html, body {
     right: 0;
     height: 66px;
     line-height: 66px;
-    color: #fff;
+    color: #000;
 }
 .navbar__logo {
     font-weight: 700;
@@ -28,14 +28,14 @@ html, body {
 }
 .menu a {
     padding: 10px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .menu a:hover {
-    color: #c5cae9;
+    color: #484848;
 }
 .navborder {
-    border-right: 1px solid #fff;
+    border-right: 2px solid #000;
     padding-right: 15px !important;
 }
 
@@ -50,8 +50,8 @@ html, body {
 }
 .hero {
     /* hero section */
-    background: #000;
-    background-image: url(../img/hero-bg.jpg);
+    background: #fff;
+    /* background-image: url(../img/hero-bg.jpg); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -60,21 +60,13 @@ html, body {
     align-items: center;
 }
 .hero img {
-    max-width: 1000px;
+    max-width: 400px;
 }
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1199px) {
     .hero img {
-        width: 600px;
-    }
-}
-@media screen and (max-width: 767px) {
-    .hero img {
-        width: 400px;
-    }
-    .navbar__logo img {
-        margin: 0 auto;
+        width: 360px;
     }
 }
