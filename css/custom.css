@@ -187,10 +187,14 @@ span.remark {
 .logo1{
     max-width: 250px;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 .logo2{
     max-width: 2000px;
 	width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 .cta-group {
 	margin-top: 30px;
