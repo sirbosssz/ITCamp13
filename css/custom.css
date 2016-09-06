@@ -199,8 +199,6 @@ span.remark {
 	background: #000;
     background-image: url(../img/dotted-bg.jpg);
     background-size: 30%;
-    -webkit-filter: blur(0.8)
-    filter: blur(0.8);
 	color: #fff;
 }
 .spacer {
@@ -291,13 +289,14 @@ iframe.subcamps {
 /* FAQ */
 
 .faq {
-	background: #efefef;
+	background: #232223;
 	padding: 50px 5px;
 }
 .faq h1, .footer h1 {
 	text-align: center;
 	font-size: 50px;
     margin-bottom: 30px;
+    color: #fff;
 }
 button.faq-box {
 	background: #fff;
@@ -313,7 +312,7 @@ button.faq-box {
 }
 button.faq-box:hover {
     border: none;
-	border-left: 15px solid #203db7;
+	border-left: 15px solid #12cffe;
     background: #fff;
     color: #000;
     cursor: pointer;
@@ -383,6 +382,7 @@ a.btn:hover, button.ghost:hover {
 .footer {
     background-color: #000;
 	background-image: url(../img/dotted-bg.jpg);
+    background-size: 30%;
     width: 100%;
     padding: 38px 30px;
     color: #fff;
